@@ -43,7 +43,7 @@
 
 1. keys(): Returns a view object with the dictionary's keys.
 
-```
+```python
 my_dict = {"name": "John", "age": 30, "city": "New York"}
 print(my_dict.keys())  # Output: dict_keys(['name', 'age', 'city'])
 ```
@@ -51,21 +51,21 @@ print(my_dict.keys())  # Output: dict_keys(['name', 'age', 'city'])
 
 1. values(): Returns a view object with the dictionary's values.
 
-```
+```python
 my_dict = {"name": "John", "age": 30, "city": "New York"}
 print(my_dict.values())  # Output: dict_values(['John', 30, 'New York'])
 ```
 
 1. items(): Returns a view object with the dictionary's key-value pairs.
 
-```
+```python
 my_dict = {"name": "John", "age": 30, "city": "New York"}
 print(my_dict.items())  # Output: dict_items([('name', 'John'), ('age', 30), ('city', 'New York')])
 ```
 
 1. get(key, default=None): Returns the value for a given key, or a default value if the key is not present.
 
-```
+```python
 my_dict = {"name": "John", "age": 30, "city": "New York"}
 print(my_dict.get("name"))  # Output: John
 print(my_dict.get("country", "USA"))  # Output: USA
@@ -73,7 +73,7 @@ print(my_dict.get("country", "USA"))  # Output: USA
 
 1. update(other_dict): Updates the dictionary with new key-value pairs.
 
-```
+```python
 my_dict = {"name": "John", "age": 30}
 my_dict.update({"city": "New York", "country": "USA"})
 print(my_dict)  # Output: {'name': 'John', 'age': 30, 'city': 'New York', 'country': 'USA'}
@@ -81,7 +81,7 @@ print(my_dict)  # Output: {'name': 'John', 'age': 30, 'city': 'New York', 'count
 
 1. pop(key): Removes and returns a key-value pair from the dictionary.
 
-```
+```python
 my_dict = {"name": "John", "age": 30, "city": "New York"}
 print(my_dict.pop("age"))  # Output: 30
 print(my_dict)  # Output: {'name': 'John', 'city': 'New York'}
@@ -89,7 +89,7 @@ print(my_dict)  # Output: {'name': 'John', 'city': 'New York'}
 
 1. clear(): Removes all key-value pairs from the dictionary.
 
-```
+```python
 my_dict = {"name": "John", "age": 30, "city": "New York"}
 my_dict.clear()
 print(my_dict)  # Output: {}
@@ -97,7 +97,7 @@ print(my_dict)  # Output: {}
 
 1. copy(): Returns a shallow copy of the dictionary.
 
-```
+```python
 my_dict = {"name": "John", "age": 30, "city": "New York"}
 new_dict = my_dict.copy()
 print(new_dict)  # Output: {'name': 'John', 'age': 30, 'city': 'New York'}
